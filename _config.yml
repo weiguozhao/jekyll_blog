@@ -1,0 +1,65 @@
+
+encoding: UTF-8
+
+# Basic
+title: ZHAO Weiguo
+subtitle: Machine learning | Cooking
+description: Welcome to my personal blog ~
+# 头像里面的标题
+avatarTitle: 赵卫国
+# 头像里面的描述
+avatarDesc: 机器学习 | Cooking
+url: ""
+
+# Comment
+comment:
+    # uyan:
+    # disqus:
+
+# Social
+social:
+    weibo: ViGorZHAO
+    github: weiguozhao
+    # twitter: 
+    mail: aszhaoweiguo@gmail.com
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: 50a83d10a99375e6d6df6427607211fd
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+#    id: UA-84134159-3   
+#    host: auto  
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: Blogs
+    description: Visit Blogs
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: Archives, description: Archives, url: '/archive'}   
+    - {title: Tags, description: Tags, url: '/tags'}      
+    - {title: About, description: About, url: '/about'}      
+    
+
+# Pagination
+# gems: [jekyll-paginate,jekyll-sitemap]
+plugins: [jekyll-paginate,jekyll-sitemap]
+# gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
+
